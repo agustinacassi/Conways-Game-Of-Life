@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game of Life 👾 | Tini Cassi</title>
+    <style>
+      .to-center-elements {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+      .to-center-texts {
+        text-align: center;
+        height: 100px;
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="to-center-elements">
+      <h1>CONWAY'S GAME OF LIFE 👾</h1>
+    </div>
+    <div class="to-center-elements">
+      <p class="to-center-texts">
+        The Game of Life is a cellular automaton consisting of a two-dimensional
+        grid of cells that can be in one of two states: alive or dead. It
+        evolves over time following simple rules, where live cells with too few
+        or too many live neighbors die, and dead cells with exactly three live
+        neighbors become alive, giving rise to complex and fascinating patterns.
+      </p>
+    </div>
+    <div class="to-center-elements">
+      <h1 class="to-center-elements" style="font-size:medium;">Rules</h1>
+    </div>
+    <div class="to-center-elements">
+      <p class="to-center-texts" style="font-size:smaller;">
+        Any live cell with two or three live neighbours survives. <br />
+        Any dead cell with three live neighbours becomes a live cell. <br />
+        All other live cells die in the next generation. Similarly, all other
+        dead cells stay dead.<br />
+      </p>
+    </div>
+    <div class="to-center-elements">
+      <canvas></canvas>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
